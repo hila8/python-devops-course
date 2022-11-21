@@ -8,7 +8,7 @@ var
 @click.command()
 @click.option(
     "--phrase",
-    prompt="Enter a phrase",
+    prompt="Enter a catch phrase",
     help="Phase in a phrase to tokenize: i.e. The Whale is large",
 )
 def tokenize(phrase):
